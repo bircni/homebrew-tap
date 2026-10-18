@@ -12,12 +12,12 @@ class GitStatuses < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/bircni/git-statuses/releases/download/0.8.2/git-statuses-0.8.2-aarch64-apple-darwin.tar.gz"
-      sha256 "ff834bd1c993835e8fc81bca622930b170fb1360ce1a0b14293f15a72faefc63"
+      url "https://github.com/bircni/git-statuses/releases/download/1.0.0/git-statuses-1.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f647ac5741280bad094c613f0f07e06db56c873a5038ec206d907452b7760c4d"
     end
     on_intel do
-      url "https://github.com/bircni/git-statuses/releases/download/0.8.2/git-statuses-0.8.2-x86_64-apple-darwin.tar.gz"
-      sha256 "c83b33d0b6b4eebc4d088757159b1cb76f91d204cb1142e397ca342dc6c7273a"
+      url "https://github.com/bircni/git-statuses/releases/download/1.0.0/git-statuses-1.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "1417523141296c055836889291de28b38dba2739df7f3d93128337fa8506f999"
     end
   end
 
@@ -26,8 +26,8 @@ class GitStatuses < Formula
     depends_on arch: :x86_64
 
     on_intel do
-      url "https://github.com/bircni/git-statuses/releases/download/0.8.2/git-statuses-0.8.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "a42b809b4073f3abc0a6aed9ed629ef6cffc2354ecb7a6a3282712bf8c39a504"
+      url "https://github.com/bircni/git-statuses/releases/download/1.0.0/git-statuses-1.0.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "bd82e6116ed80397942da47370fdd08b7d084bd805863c2970f423e1197237a2"
     end
   end
 
