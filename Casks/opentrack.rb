@@ -1,6 +1,6 @@
 cask "opentrack" do
-  version "4.1.0"
-  sha256 "d21228e044bfe8b89e52ac3fd2430d2d675824c463ef8b8182a52193fe152532"
+  version "4.2.0"
+  sha256 "36fd7fa23c758b4ece9faf5ffdff1203b4ba34c4f1e16c0d8fa44f0073cfa2e7"
 
   url "https://github.com/bircni/aitrack/releases/download/v#{version}/opentrack_#{version}_aarch64.dmg"
   name "opentrack"
