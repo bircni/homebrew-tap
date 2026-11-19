@@ -2,6 +2,18 @@
 
 Homebrew formulae and casks for bircni's tools.
 
+## cargo-wash
+
+[cargo-wash](https://github.com/bircni/cargo-wash) shows the size of the target folders of
+all your Cargo projects, cleans them and runs cargo commands in every project.
+
+```sh
+brew install bircni/tap/cargo-wash
+```
+
+The formula installs the prebuilt release binary for macOS (Apple Silicon and Intel) or
+Linux (x86_64). It is updated automatically by the cargo-wash release workflow.
+
 ## git-statuses
 
 [git-statuses](https://github.com/bircni/git-statuses) shows the status of many Git
