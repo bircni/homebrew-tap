@@ -1,10 +1,10 @@
 cask "opentrack" do
-  version "5.2.0"
-  sha256 "d2903e9ad7a4eaaf727c253912e22038f65ab7f4033e3c431c0383c9dbdd877d"
+  version "6.0.0"
+  sha256 "02c46b1d0bb092052c63836ba535756223ac8d7d88bbb741531cd8f4ec6750fa"
 
   url "https://github.com/bircni/aitrack/releases/download/v#{version}/opentrack_#{version}_aarch64.dmg"
   name "opentrack"
-  desc "Menu bar dashboard for Claude Code, Codex and Cursor limits and spend"
+  desc "Menu bar dashboard for Claude Code and Codex limits and spend"
   homepage "https://github.com/bircni/aitrack/blob/main/docs/opentrack.md"
 
   livecheck do
